@@ -1,0 +1,132 @@
+.ant-card-head-title {
+    color: #000969;
+    font-size: 2.5rem;
+  }
+  
+  .ant-list-item-meta-title {
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 24px !important;
+    line-height: 22px;
+  }
+  button.ant-btn.remove{
+    background-color:red;
+    color: #ffff;
+    &:hover,
+    &:focus {
+      border-color: red;
+    }
+  }
+  button.ant-btn.edit{
+  background: #e6007e;
+  color: #ffff;
+  &:hover,
+    &:focus {
+      border-color: #e6007e;
+    }
+  }
+  button.ant-btn.view{
+    background: #000969;
+    color: #ffff;
+    &:hover,
+      &:focus {
+        border-color: #000969;
+      }
+    }
+    button.ant-btn.complete{
+      background:greenyellow;
+      color: #ffff;
+      &:hover,
+        &:focus {
+          border-color: greenyellow;;
+        }
+      }
+    complete
+  button.ant-btn {
+    border-radius:8px
+  }
+  .Add-project-Container {
+    display: flex;
+    justify-content: space-between;
+    .Add-project-input {
+      width: 80%;
+      input.ant-input {
+       height:4rem;
+       &:hover,
+       &:focus {
+         border-color: #4050fb;
+       }
+    }
+    }
+    .Add_project_Btn {
+      i.anticon.anticon-plus-circle {
+        font-size: 4rem;
+        color:#4050fb
+      }
+    }
+  
+  }
+  // CloseViewModal starts here
+  .CloseViewModal {
+      width: 74rem !important;
+      .ant-modal-content {
+        border-radius: 20px;
+        background-color: #000969;
+        margin-top: 2rem;
+        // opacity: 0.5;
+        height:40vh
+      }
+      .ant-modal-body {
+        position: relative;
+        .CloseIcon {
+          position: absolute;
+          color: #000969;
+          font-size: 2.8rem;
+          right: 2.6rem;
+          top: 2.5rem;
+          z-index: 2000;
+          cursor: pointer;
+        }
+        h4 {
+          color: #21597f;
+          margin-bottom: 2rem;
+          font-size: 2.25rem;
+          text-align: center;
+        }
+        .ant-input {
+          background: #ffff;
+          border-radius: 6px;
+          font-size: 1.45rem;
+          margin-bottom: 3rem;
+          height: 4rem;
+          box-shadow: none;
+          &:hover,
+          &:focus {
+            border-color: #4fb8b6;
+          }
+        }
+        .BtnSetup {
+          text-align: center;
+          button.ant-btn {
+            font-size: 1.4rem;
+            border-radius: 12px;
+            width: 12rem;
+            height: 4.2rem;
+            border-color: #4fb8b6;
+            &:hover,
+            &:focus {
+              border-color: #4fb8b6;
+            }
+          }
+          .submitBtn {
+            background: #4fb8b6;
+            margin-right: 1.4rem;
+          }
+          .CancelBtn {
+            color: #4fb8b6;
+            background: #ffff;
+          }
+        }
+      }
+    }
+    // CloseViewModal ends here
